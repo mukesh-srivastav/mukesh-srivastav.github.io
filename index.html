@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mukesh Srivastav</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+  <style>
+  body{
+    font:16px "Open Sans", sans-serif;
+    line-height: 1.8;
+  }
+  .jumbotron{
+    padding-left:20px;
+  }
+  #skills > .btn{
+    margin: 10px ; 
+    text-align:justify;
+  } 
+  #skills > div{
+    display:inline-block;
+    
+    font-size:36px;
+    font-weight:100;
+  }
+  #contactme{
+    margin:auto;
+    width:60%;
+    padding:10px;
+  }
+  #social > li{
+    margin-bottom: 20px
+  }
+  #navbar >li>a:active {
+    color: #0000FF;
+    height:20px;
+    -webkit-transition: height 2s linear; 
+    transition: height 2s linear; 
+  }
+  .jumbotron{
+     -webkit-transition: width 2s ease; 
+    transition: width 2s ease; 
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand text-center" href="#">My Profile</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul id="navbar" class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid">
+  <div class="jumbotron" style="margin-top:40px ; margin-bottom:10px ; background-color: #FFFFFF; text-align: center">
+    <img src="Picture 057.jpg" class="img-circle " alt="" width="144" height="184">
+    <h1>Mukesh Kumar Srivastava</h1>
+    <h4>Trainee Software Engineer at Mindfire Solutions</h4>
+    <div class="text-center h4">
+      <a href="CV.pdf" >Download Resume </a>
+    </div>
+  </div>
+</div>
+ <div class="jumbotron" id="about" style=" margin-bottom:10px">
+  <h2> About me  :</h2>
+  <div class="h5 text-justify" style="margin-left:20px; margin-right:20px ">Hi, I am Mukesh Srivastava, a newbie software engineer . I have just been graduated in Computer Science . And that's how I've completed my academic education and moved in next phase, that is professional life. I have just started to work at mindfire Solutions as trainee software engineer. I like my work, my company, it's awesome.  </div>
+  </div>
+  
+  <div class="jumbotron" id="education" style="background-color: #FFFFFF; padding-bottom:10px;margin-bottom:10px">
+  <h2> Education : </h2>
+    <dl style="margin-left:20px">
+      <dt>B.Tech. (Computer Science &amp; Engineering) : </dt>
+      <dd>
+        <ul>
+          <li>Harcourt Butler Technical University, Kanpur</li>
+          <li style="margin-right: 20px">It was all about exploration. Started from learning basics of Computer Science, and explored many things in the field. Learned a lot of stuff, made friends, have been involved in many extra curricular activities, took part in coding challenges, projects, MOOCs, wrote few articles.</li>
+      </ul>
+      </dd>
+      <dt>Diploma (Mechanical Engineering) : </dt>
+      <dd>
+        <ul>
+          <li>Government Polytechnic Lucknow </li>
+          <li style="margin-right: 20px">After 10th, People go for PCM, I chose engineering. Learnt so many things, started to see the world in a different way, made lifetime friends, created beautiful memories, explored mechanical engineering as much as anyone can.</li>
+        </ul>
+      </dd>
+      <dt>HighSchool : </dt>
+      <dd>
+        <ul>
+          <li>City Montessori School </li>
+          <li>Childhood things. Mathematics special days. Secured first position in district merit list. </li>
+        </ul>
+      </dd>
+  </dl>
+  </div>
+  
+  <div class="jumbotron" id="projects" style="padding-bottom: 10px" >
+    <h2> Projects : </h2>
+    <dl style="margin-left: 20px">
+      <dt>EBook Recommendation System : </dt>
+      <dd>
+        <ul>
+          <li>php7, MySQL,Statistics, HTML5, CSS3, BootStrap, JavaScript</li>
+            <li>Graduation(Final year) project.</li>
+            <li style="margin-right: 20px">Used machine learning, statistical metrics i.e. Pearson Correlation, Weighted Sum Ranking Algorithm (Collaborative Filtering), Keywords Matching (content based filtering). Implemented in php7, bootstrap3, MySql on sublime/notepad with apache server.</li>
+            <li><a href="https://github.com/mukesh-srivastav/RecommendationSystem" >View Project</a></li>
+        </ul>
+      </dd>
+      <dt>Lost&amp;Find.com</dt>
+      <dd>
+        <ul>
+          <li>php5, MySQL, HTML5, CSS, JavaScript</li>
+            <li style="margin-right: 20px">It was a platform where you can search lost things at any location according to location, date, stuff name, keywords. </li>
+            <li><a href="https://github.com/mukesh-srivastav/LostandFind" >View Project</a></li>
+        </ul>
+      </dd>
+      <dt>BookOne.com</dt>
+      <dd>
+        <ul>
+          <li>php5, MySQL, HTML5, CSS, JavaScript</li>
+            <li style="margin-right: 20px">It was a ebook downloading site where you can find many kinds of books like literature, engineering, computers, competitive exam & job preparation . </li>
+            <li><a href="https://github.com/mukesh-srivastav/Book-One" >View Project</a></li>
+        </ul>
+      </dd>
+      <dt>Group Chat Network</dt>
+      <dd>
+        <ul>
+          <li>Java, Networking APIs</li>
+            <li style="margin-right: 20px">It was a terminal based group chatting system where anyone can join the conversation by the conversation url and communicate . </li>
+            <li><a href="#" >View Project</a></li>
+        </ul>
+      </dd>
+  </dl>
+  </div>
+  <div class="jumbotron" id="skills" style="margin:auto;width:80%; background-color: #FFFFFF ; margin-bottom: 30px">
+    <div class="h2 text-center" style="display:block">Skills:</div>
+    <div><span class="label label-success">PHP</span></div>
+    <div><span class="label label-success">Java</span></div>
+    <div><span class="label label-success">NodeJS</span></div>
+    <div><span class="label label-success">JQuery</span></div>
+    <div><span class="label label-success">ExpressJS</span></div>
+    <div><span class="label label-success">BootStrap</span></div>
+    <div><span class="label label-success">MySQL</span></div>
+    <div><span class="label label-success">JavaScript</span></div>
+    <div><span class="label label-success">C</span></div>
+    <div><span class="label label-success">HTML5</span></div>
+    <div><span class="label label-success">CSS3</span></div>
+    <div><span class="label label-success">AJAX</span></div>
+    <div><span class="label label-success">JSON</span></div>
+    <div><span class="label label-success">XML</span></div>
+    <div><span class="label label-success">GIT</span></div>
+    <div><span class="label label-success">JERA</span></div>
+    <div><span class="label label-success">Trello</span></div>
+    <div><span class="label label-success">Agile</span></div>
+    <div><span class="label label-success">JS APIs</span></div>
+  </div>
+  <div class="jumbotron">
+    <div id="contactme" >
+          <h2>Get in Touch</h2>
+          <div id="contact-form">
+              <form method="POST" action="https://formspree.io/mukeshsrivastav691@gmail.com">
+                  <input type="hidden" name="_subject" value="Contact request from personal website" />
+                  <div class="form-group">
+                      <label for="email">Email address:</label>
+                      <input type="email" name="_replyto" class="form-control" placeholder="Your email" id="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="comment">Message:</label>
+                    <textarea class="form-control" name="message" rows="5" placeholder="Your message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary center-block btn-block">Send</button>
+              </form>
+          </div>
+      </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2017 Mukesh Srivastav
+                    </p>
+                </div>
+                <div class="col-sm-7">
+                    <ul id="social" class="list-inline pull-right" style="list-style-type:none">
+                        <li>
+                            <a href="https://www.linkedin.com/in/mukesh-srivastav-b2544872/"  data-toggle="tooltip" title="LinkedIn" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/mukesh.srivastav.3304"  data-toggle="tooltip" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.quora.com/profile/Mukesh-Srivastav-2"  data-toggle="tooltip" title="Quora" target="_blank"><i class="fa fa-quora" style="font-size:20px;"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/mukesh-srivastav" data-toggle="tooltip" title="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+      
+    </script>
+</body>
+</html>
